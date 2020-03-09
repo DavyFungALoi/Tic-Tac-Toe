@@ -1,0 +1,30 @@
+.main-board-header {
+    justify-content: center;
+    display:flex;
+}
+.container {
+    display: grid;
+    grid-gap: 0%;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px); ;
+    position: center;
+    margin: auto 0;
+    justify-content: center;
+    
+ }
+.grid {
+    color: red;
+    border-style: solid;
+    border-color: black; 
+}
+.user-overview {
+    display: grid;
+    grid-template-columns: 2fr,1fr;
+    color: red;
+}
+.user-overview .scoreOverview {
+    display: flex;
+    color:blue;
+    align-items: center;
+    justify-content: center;
+}
