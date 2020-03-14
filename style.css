@@ -22,9 +22,8 @@
     grid-template-columns: 2fr,1fr;
     color: red;
 }
-.user-overview .scoreOverview {
-    display: flex;
-    color:blue;
-    align-items: center;
-    justify-content: center;
+.user-overview .winningMessage {
+    color: blue;
+    text-align: center;
+    font-size: 3rem;
 }
